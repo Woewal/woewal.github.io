@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+.image-card {
+    display: flex
+}
+
+.image-card .image-container {
+    width: 150px
+}
+
+.image-card .image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%
+}
+
+.info .image-container {
+    height: 150px;
+    background-color: #1c1c1c;
+    position: relative;
+    color: #fff;
+    text-align: right;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.info .image-container img {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    bottom: 0;
+    left: 0
+}
+
+.info .image-container div {
+    z-index: 1
+}
+
+/*# sourceMappingURL=main.d428f7ed.chunk.css.map */
